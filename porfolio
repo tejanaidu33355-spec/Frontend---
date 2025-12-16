@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Navbar Example</title>
+    <style>
+            body{
+                background-color: black;
+               padding: 10px 10%;
+            }
+            h2{
+                color: deeppink;
+            }
+            nav{
+                font-family: 'Franklin Gothic Medium';
+                font-size: large;
+                align-items: center;
+            }
+            nav ul{
+                list-style-type: none;
+                display: flex;
+            }
+            nav ul li a{
+                border-radius: 20px;
+                padding: 20px 40px;
+                color: white;
+            }
+            .container{
+                padding: 10px 10%;
+            }
+            .home h1 span{
+                color: red;
+                font-family: sans-serif;
+            }
+            .home{
+                color: white;
+                font-size: 22px; 
+            }
+            .home p{
+                font-size: 22px;
+            }
+            .about p{
+                color: white;
+                font-size: 20px;
+            }
+            .about{
+                font-size: 22px;
+            }
+            .skills{
+                font-size: 22px;
+            }
+            .skills ul li{
+                color: white;
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .education{
+                color: white;
+                font-size: 20px;
+            }
+            .education{
+                font-size: 22px;
+            }
+            .contact{
+                color: white;
+                font-size: 22px;
+            }
+            .contact p{
+                color:white;
+                font-size: 20px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+        </style>
+</head>
+<body>
+    <div class="container">
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    </div>
+<br>
+    <div id="home">
+        <div class="home">
+          <h2>Home</h2>
+        <h1> Hi , I'm <span>teja naidu</span></h1>
+        <p>Frontened Developer</p>
+        </div>
+    <div id="aboutme">
+        <div class="about">
+        <h2>About Me</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil repudiandae in, dolores non eveniet incidunt. Tempora, ab nostrum corrupti rerum ex distinctio exercitationem, ut magni quisquam reprehenderit, officia dolore fugiat!<br>lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil repudiandae in, dolores non eveniet incidunt. Tempora, ab nostrum corrupti rerum ex distinctio exercitationem, ut magni quisquam reprehenderit, officia dolore fugiat!</p>
+        </div>
+    </div>
+
+    <div id="skills">
+        <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li> Frontened Developer</li>
+            <li> UI/UX Designer</li>
+        </ul>
+        </div>
+       
+    </div>
+
+    <div id="education">
+        <div class="education">
+        <h2>Education</h2>
+        <p>UG : B.Tech at SVIET , Nandamuru</p>
+        <p>Intermediate : narayana , gudivada</p>
+        </div>
+        
+    </div>
+
+    <div id="contact">
+        <div class="contact">
+        <h2>Contact</h2>
+        <p>Name : teja naidu </p>
+        <p>E-mail : example@gmail.com</p>
+        <p>Mobile : 1234567890</p>
+
+        </div>
+        
+    </div>
+</body>
+</html>
+
